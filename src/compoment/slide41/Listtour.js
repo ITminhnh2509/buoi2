@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Slide41 from './Slide41'
+import Listtourchild from './Listtourchild'
 import { Row } from 'reactstrap'
 
 export default function Listtour() {
@@ -41,7 +41,7 @@ export default function Listtour() {
         <Row>
             {
                 list.map((item, index) => (
-                    <Slide41 key={index} pro={item} />
+                    <Listtourchild key={index} pro={item} />
                 ))
             }
         </Row>
