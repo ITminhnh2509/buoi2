@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hook5{
+    font-size: 24px;
+    color: green;
+
+    transition: 0.5s;
+    text-align: center;
+}
+.hook5.active{
+    font-size: 30px;
+    background-color: bisque;
+    color: #fff;
+}
+
+.meo{
+    width: 100%;
+    height: 200px;
+    background: violet;
+    transform: translateX(-144%);
+    transition: 1s;
+    z-index: 3 !important;
+}
+.meo.active{
+    background-color: red;
+    transform: translateX(0%);
+}
+.grid4column{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
